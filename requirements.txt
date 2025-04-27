@@ -1,5 +1,5 @@
-Flask
-flask-cors
-torch
-sentence-transformers
-openai
+Flask==2.2.5
+flask-cors==3.0.10
+torch==2.0.1
+sentence-transformers==2.2.2
+openai==0.28.1
