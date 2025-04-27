@@ -144,6 +144,3 @@ def chat():
     response = chatbot.get_response(user_message)
     return jsonify({'response': response})
 
-if __name__ == '__main__':
-    print("Memulai API chatbot pada http://localhost:5000")
-    app.run(debug=True, host='0.0.0.0', port=5000)
