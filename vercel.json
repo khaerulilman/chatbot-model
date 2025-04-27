@@ -1,14 +1,12 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "chatbot.py",
-      "use": "@vercel/python"
-    }
+    { "src": "chatbot.py", "use": "@vercel/python" }
   ],
   "routes": [
     {
-      "src": "/api",
+      "src": "/api/chat",
+      "methods": ["POST"],
       "dest": "chatbot.py"
     }
   ]
